@@ -1,0 +1,53 @@
+body
+{
+	margin-top: 10px;
+	background: yellowgreen;
+}
+.all_bg
+{
+	width: 900px;
+	height: 900px;
+	margin: 0 auto;
+}
+.all_canvas
+{
+	position: relative;
+	margin: 0px;
+	width: 900px;
+	height: 900px;
+}
+#canvas1
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 0;
+}
+#canvas2
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1;
+}
+#canvas3
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	z-index: 2;
+}
+#canvas4
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 4;
+}
+#canvas5
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}
